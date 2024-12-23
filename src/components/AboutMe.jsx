@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div className="bg-[#F3F3F3] py-12">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
-        {/* Column 1: About Me Section */}
+        
         <div className="flex flex-col">
           <h4 className="text-3xl font-bold mb-6 text-gray-700">ABOUT ME</h4>
           <p className="text-gray-500 leading-relaxed mb-8">
@@ -23,9 +23,9 @@ const AboutMe = () => {
           </button>
         </div>
 
-        {/* Column 2: 120% Increase Section */}
+        
         <div className="flex flex-col">
-          <div className="bg-white shadow-lg rounded-lg p-6 w-[350px] h-[550px] mb-6">
+          <div className="bg-white shadow-lg rounded-lg p-6 w-[350px] h-[600px] mb-6">
             <div className="mb-8">
               <img src={global} alt="Global Icon" className="w-6 h-6 mb-7 mr-3" />
               <h3 className="text-4xl font-bold text-gray-800">120%</h3>
@@ -36,14 +36,13 @@ const AboutMe = () => {
           <img
             src={profile}
             alt="Abdullah Tariq"
-            className="w-full h-60 rounded-lg mt-12"
+            className="w-full h-60 rounded-lg mt-28"
           />
           </div>
         </div>
 
-        {/* Column 3: CV and Points */}
-        <div className="flex flex-col">
-          {/* Resume Section */}
+              <div className="flex flex-col">
+        
           <div className="bg-white  rounded-lg p-6 ">
             <img
               src={resume}
@@ -58,7 +57,7 @@ const AboutMe = () => {
             >
               Download Resume
             </a>
-          {/* Points Section */}
+        
           <div className=" py-6 mb-4 flex items-start gap-x-5 leading-8">
   <img src={star} alt="Star Icon" className="w-6 h-6 mt-1" />
   <p className="text-gray-500">
@@ -78,7 +77,7 @@ const AboutMe = () => {
 
         </div>
       </div>
-      <div className="">
+      <div className="py-16">
   <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
     {/* Card 1 */}
     <div className="bg-white shadow-md rounded-lg flex flex-col items-center gap-y-4" >
@@ -102,9 +101,9 @@ const AboutMe = () => {
     </div>
 
     {/* Card 4 */}
-    <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center">
-      <p className="text-4xl font-bold text-gray-800">+80%</p>
-      <h3 className="">Client Revenue</h3>
+    <div className="bg-white shadow-md rounded-lg flex flex-col items-center gap-y-4">
+      <p className="text-4xl font-bold text-gray-800 mt-4 mb-10">+80%</p>
+      <h3 className="text-gray-500 bg-slate-300 w-full h-12 text-lg flex items-center justify-center">Client Revenue</h3>
     </div>
   </div>
 </div>
