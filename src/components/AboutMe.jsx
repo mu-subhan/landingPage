@@ -7,9 +7,9 @@ import star from "../images/starr.png"
 const AboutMe = () => {
   return (
     <div className="bg-[#F3F3F3] py-12">
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 ">
         
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center ">
           <h4 className="text-3xl font-bold mb-6 text-gray-700">ABOUT ME</h4>
           <p className="text-gray-500 leading-relaxed mb-8">
             As a passionate UI designer, I bring creativity and precision to
@@ -24,19 +24,19 @@ const AboutMe = () => {
         </div>
 
         
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <div className="bg-white shadow-lg rounded-lg p-6 w-[350px] h-[600px] mb-6">
             <div className="mb-8">
               <img src={global} alt="Global Icon" className="w-6 h-6 mb-7 mr-3" />
               <h3 className="text-4xl font-bold text-gray-800">120%</h3>
             </div>
-            <p className="text-gray-400 mb-5 text-2xl leading-8">
+            <p className="text-gray-400 text-2xl leading-7">
               Average increase in client <br /> engagement in the first 6 <br />months
             </p>
           <img
             src={profile}
             alt="Abdullah Tariq"
-            className="w-full h-60 rounded-lg mt-28"
+            className="w-full  rounded-lg pt-16"
           />
           </div>
         </div>
@@ -53,7 +53,7 @@ const AboutMe = () => {
             <a
               href="../images/Muhammad_Subhan.pdf"
               download
-              className="flex items-center mb-8 bg-gray-200 justify-center text-blue-500 font-medium hover:underline"
+              className="flex items-center mb-8 bg-[#D9D9D9] justify-center text-blue-500 font-medium hover:underline"
             >
               Download Resume
             </a>
@@ -81,7 +81,7 @@ const AboutMe = () => {
   <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
     {/* Card 1 */}
     <div className="bg-white shadow-md rounded-lg flex flex-col items-center gap-y-4" >
-  <h3 className="text-gray-500 bg-slate-300 w-full h-12 text-lg mb-2 flex items-center justify-center">
+  <h3 className="text-gray-500 bg-[#D9D9D9] w-full h-12 text-lg mb-2 flex items-center justify-center">
     Years of Experience
   </h3>
   <p className="text-4xl font-bold text-gray-800">02+</p>
@@ -91,19 +91,19 @@ const AboutMe = () => {
     {/* Card 2 */}
     <div className="bg-white shadow-md rounded-lg flex flex-col gap-y-4 items-center">
       <p className="text-4xl font-bold text-gray-800 mt-4 mb-10">120+</p>
-      <h3 className="text-gray-500 bg-slate-300 w-full h-12 text-lg flex items-center justify-center">Successful Projects</h3>
+      <h3 className="text-gray-500 bg-[#D9D9D9] w-full h-12 text-lg flex items-center justify-center">Successful Projects</h3>
     </div>
 
     {/* Card 3 */}
     <div className="bg-white shadow-md rounded-lg flex flex-col items-center gap-y-5">
-      <h3 className="text-gray-500 bg-slate-300 w-full h-12 text-lg  flex items-center justify-center">Total Clients</h3>
+      <h3 className="text-gray-500 bg-[#D9D9D9] w-full h-12 text-lg  flex items-center justify-center">Total Clients</h3>
       <p className="text-4xl font-bold text-gray-800">250+</p>
     </div>
 
     {/* Card 4 */}
     <div className="bg-white shadow-md rounded-lg flex flex-col items-center gap-y-4">
       <p className="text-4xl font-bold text-gray-800 mt-4 mb-10">+80%</p>
-      <h3 className="text-gray-500 bg-slate-300 w-full h-12 text-lg flex items-center justify-center">Client Revenue</h3>
+      <h3 className="text-gray-500 bg-[#D9D9D9] w-full h-12 text-lg flex items-center justify-center">Client Revenue</h3>
     </div>
   </div>
 </div>

@@ -4,7 +4,8 @@ import LandingPage from './LandingPage';
 import AboutMe from './components/AboutMe';
 import Featured from './components/Featured';
 import Skill from "./components/Skill"
-import Testimonial from "./components/Testimonial.jsx"
+import Testimonial from "./components/Testimonial"
+import Footer from "./components/Footer"
 const App = () => {
   return (
     <>
@@ -13,6 +14,8 @@ const App = () => {
     <Featured/>
     <Skill/>
     <Testimonial/>
+    <Footer/>
+    
     </>
   )
 }
